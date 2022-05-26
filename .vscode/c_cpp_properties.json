@@ -54,19 +54,6 @@
         {
             "name": "Win32",
             "includePath": [
-                "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.12.25827/include/*",
-                "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.12.25827/atlmfc/include/*",
-                "C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um",
-                "C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/ucrt",
-                "C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/shared",
-                "C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/winrt",
-                "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.13.26128/include",
-                "C:/msys64/mingw64/avr/include/**",
-                "C:/msys64/mingw64/lib/gcc/avr/8.4.0/include/**",
-                "C:/msys64/mingw64/lib/gcc/avr/8.4.0/include-fixed/**",
-                "C:/msys64/mingw64/arm-none-eabi/include/**",
-                "C:/msys64/mingw64/lib/gcc/arm-none-eabi/10.1.0/include/**",
-                "C:/msys64/mingw64/lib/gcc/arm-none-eabi/10.1.0/include-fixed/**",
                 "C:/QMK_MSYS/mingw64/avr/include/**",
                 "C:/QMK_MSYS/mingw64/arm-none-eabi/include/**",
                 "C:/QMK_MSYS/mingw64/lib/gcc/avr/8.4.0/include/**",
@@ -75,10 +62,8 @@
                 "C:/QMK_MSYS/mingw64/lib/gcc/arm-none-eabi/10.1.0/include-fixed/**",
                 "${workspaceFolder}/**",
                 "${workspaceFolder}/quantum/**",
-                "${workspaceFolder}/tmk_core/common/**",
                 "${workspaceFolder}/quantum/audio/**",
                 "${workspaceFolder}/quantum/process_keycode/**",
-                "${workspaceFolder}/drivers/avr/**",
                 "${workspaceFolder}/lib/chibios/**",
                 "${workspaceFolder}/lib/lufa/**"
             ],
@@ -88,12 +73,6 @@
             "intelliSenseMode": "msvc-x64",
             "browse": {
                 "path": [
-                    "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.12.25827/include/*",
-                    "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.12.25827/atlmfc/include/*",
-                    "C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um",
-                    "C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/ucrt",
-                    "C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/shared",
-                    "C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/winrt",
                     "${workspaceFolder}"
                 ],
                 "limitSymbolsToIncludedHeaders": false,
